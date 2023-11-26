@@ -1,0 +1,95 @@
+1)what do you mean by output primitive? 
+      In computer graphics, an output primitive is a basic geometric element that can be displayed on a screen or output device. It serves as a building block for creating more complex graphics objects or scenes. Examples of output primitives include points, lines, and polygons.
+
+
+2)define computer graphics.
+      Computer graphics refers to the field of study and practice that involves generating, manipulating, and displaying visual content using computers. It involves creating, editing, and rendering images, animations, and interactive visual representations.
+
+
+
+3)what is frame buffer?
+      The frame buffer is a dedicated region of computer memory that stores the pixel values for each pixel on a display screen. It holds the complete image or frame being displayed.
+
+
+4)what is pixel?
+      A pixel, short for "picture element," is the smallest unit of a digital image or display. It represents a single point in a two-dimensional grid and corresponds to a specific location on a screen or image. Each pixel carries information about its color and other attributes, such as brightness or opacity.
+
+
+
+5)define circle. 
+      In computer graphics, a circle is a smooth, closed curve defined by a set of points that are equidistant from a central point. It is represented as a collection of pixels or vertices forming a round shape with a constant radius.
+
+
+
+6)distinguish between window port and view port?
+      The window port and view port are two important concepts in computer graphics that relate to the display of graphics on a screen.
+
+Window port: The window port refers to the total area of the screen or drawing surface that is available for displaying graphics or images. It represents the entire graphical workspace or canvas within which graphics can be positioned and manipulated. The window port defines the overall dimensions and boundaries of the graphical output space.
+
+View port: The view port, on the other hand, represents the specific rectangular region within the window port that is actually visible or displayed on the screen. It is a subset of the window port that defines the portion of the graphical output that is visible to the user. The view port can be thought of as a "window" through which the user can see and interact with the graphics or image content.
+
+
+
+7)write short notes on lines?
+        Definition: In computer graphics, a line is a basic element connecting two points in a two-dimensional or three-dimensional space, forming the foundation for drawing and rendering geometric shapes.
+
+Representation: Digital lines are often represented using algorithms like Bresenham's line algorithm, which determines the discrete pixels that should be activated to create a smooth visual representation, and they are crucial for rendering graphics on a display
+
+
+
+8)write the important application of computer graphics.
+         Entertainment Industry: Computer graphics are extensively used in the entertainment industry for creating visual effects in movies, designing video games, and producing animated content. This application enhances the overall visual experience for audiences.
+
+Computer-Aided Design (CAD): In engineering and architectural fields, computer graphics are employed for CAD applications. Engineers and designers use graphical representations on computers to create, modify, and analyze designs, aiding in the development of products and structures.
+
+
+
+9)what are the steps involved in 3D transformation?
+          there are five steps involved in 3d transformation they are translation,rotation,scaling,reflection and shearing these are the steps involved in 3d transformation.
+
+
+10)define shading.
+         Shading is refers to the process of assigning colors or shades to the pixels of an object to create a realistic or stylized appearance. It involves determining how light interacts with surfaces and how the resulting illumination is represented. Shading enhances the visual quality of rendered images by simulating effects such as highlights, shadows, and gradients, contributing to the overall realism and aesthetic appeal of computer-generated scenes.
+
+
+
+11)what is morphing?
+         Morphing is a technique that involves smoothly transforming one image into another. It is achieved by interpolating between keyframes, where corresponding points or regions in the two images are matched. Through a gradual transition, the images blend together, creating a seamless transformation. Morphing is commonly used in animation and special effects to depict gradual changes between objects, characters, or scenes.
+
+
+12)what are the disadvantages of sutherland-hodgeman algorithm?
+         Convex Polygon Limitation: The algorithm works well for convex polygons but may fail to handle concave or complex polygons properly. It can produce unexpected results or fail to clip concave polygons accurately.
+
+Edge Order Dependency: The order in which edges are processed matters. If edges are not processed in the correct order, the algorithm may not provide the desired results, making it sensitive to the sequence in which edges are defined and processed.
+
+
+
+13)what is a transformation?
+         a transformation refers to the process of modifying the position, orientation, or size of graphical elements. It involves applying mathematical operations to change the coordinates of points or vertices, leading to alterations in the appearance or location of objects on a screen or within a three-dimensional space.
+
+
+
+14)what is translation?
+          the obeject is moved from one coordinate location to another coordinate loction.This is done by adding translation distance to original coordinate position to move to new coordinate position.
+
+
+15)what is reflection?
+          reflection refers to a transformation that produces a mirror image of an object. This is achieved by flipping or inverting the object's coordinates across a specified plane, often the x-y plane. 
+
+
+16)define clipping?and types of clipping.
+           clipping is the process of removing any objects or portions of objects that fall outside the viewing region or viewport. It ensures that only the relevant and visible parts of an object are displayed on the screen, optimizing rendering performance.there are four types of clipping they are point clipping,line clipping,polygon clipping and area clipping.
+
+
+
+17)what is the use of clipping?
+          The primary use of clipping in computer graphics is to remove objects, lines, or line segments that are outside the viewing pane.
+
+
+18)what are the different types of 3d transformations?
+           the different types of 3d transformations:
+                        Translation.
+                        Scaling.
+                        Rotation.
+                        Shear.
+                        Reflection.
